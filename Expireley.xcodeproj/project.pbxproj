@@ -13,6 +13,11 @@
 		84D0E8A22803FAFC004BCD6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D0E8A12803FAFC004BCD6C /* Preview Assets.xcassets */; };
 		84D0E8A42803FAFC004BCD6C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8A32803FAFC004BCD6C /* Persistence.swift */; };
 		84D0E8A72803FAFC004BCD6C /* Expireley.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8A52803FAFC004BCD6C /* Expireley.xcdatamodeld */; };
+		84D0E8B12803FB9A004BCD6C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8B02803FB9A004BCD6C /* CoreDataManager.swift */; };
+		84D0E8B32803FBF7004BCD6C /* HomeViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8B22803FBF7004BCD6C /* HomeViewModal.swift */; };
+		84D0E8B528040171004BCD6C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8B428040171004BCD6C /* HomeView.swift */; };
+		84D0E8B7280402E1004BCD6C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8B6280402E1004BCD6C /* RowView.swift */; };
+		84D0E8B92804A18B004BCD6C /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E8B82804A18B004BCD6C /* AddNewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		84D0E8A12803FAFC004BCD6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84D0E8A32803FAFC004BCD6C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		84D0E8A62803FAFC004BCD6C /* Expireley.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Expireley.xcdatamodel; sourceTree = "<group>"; };
+		84D0E8B02803FB9A004BCD6C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		84D0E8B22803FBF7004BCD6C /* HomeViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModal.swift; sourceTree = "<group>"; };
+		84D0E8B428040171004BCD6C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84D0E8B6280402E1004BCD6C /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		84D0E8B82804A18B004BCD6C /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,12 @@
 		84D0E8992803FAFB004BCD6C /* Expireley */ = {
 			isa = PBXGroup;
 			children = (
+				84D0E8AF2803FB37004BCD6C /* CoreData */,
+				84D0E8AE2803FB32004BCD6C /* ViewMOdals */,
+				84D0E8AD2803FB28004BCD6C /* Views */,
 				84D0E89A2803FAFB004BCD6C /* ExpireleyApp.swift */,
 				84D0E89C2803FAFB004BCD6C /* ContentView.swift */,
 				84D0E89E2803FAFC004BCD6C /* Assets.xcassets */,
-				84D0E8A32803FAFC004BCD6C /* Persistence.swift */,
-				84D0E8A52803FAFC004BCD6C /* Expireley.xcdatamodeld */,
 				84D0E8A02803FAFC004BCD6C /* Preview Content */,
 			);
 			path = Expireley;
@@ -71,6 +82,34 @@
 				84D0E8A12803FAFC004BCD6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84D0E8AD2803FB28004BCD6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84D0E8B428040171004BCD6C /* HomeView.swift */,
+				84D0E8B82804A18B004BCD6C /* AddNewView.swift */,
+				84D0E8B6280402E1004BCD6C /* RowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84D0E8AE2803FB32004BCD6C /* ViewMOdals */ = {
+			isa = PBXGroup;
+			children = (
+				84D0E8B22803FBF7004BCD6C /* HomeViewModal.swift */,
+			);
+			path = ViewMOdals;
+			sourceTree = "<group>";
+		};
+		84D0E8AF2803FB37004BCD6C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84D0E8A32803FAFC004BCD6C /* Persistence.swift */,
+				84D0E8A52803FAFC004BCD6C /* Expireley.xcdatamodeld */,
+				84D0E8B02803FB9A004BCD6C /* CoreDataManager.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D0E8A42803FAFC004BCD6C /* Persistence.swift in Sources */,
+				84D0E8B528040171004BCD6C /* HomeView.swift in Sources */,
 				84D0E8A72803FAFC004BCD6C /* Expireley.xcdatamodeld in Sources */,
+				84D0E8B7280402E1004BCD6C /* RowView.swift in Sources */,
 				84D0E89D2803FAFB004BCD6C /* ContentView.swift in Sources */,
+				84D0E8B12803FB9A004BCD6C /* CoreDataManager.swift in Sources */,
+				84D0E8B92804A18B004BCD6C /* AddNewView.swift in Sources */,
 				84D0E89B2803FAFB004BCD6C /* ExpireleyApp.swift in Sources */,
+				84D0E8B32803FBF7004BCD6C /* HomeViewModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
