@@ -16,4 +16,4 @@ Scrrenshots:
 
 
 <h1>Home Screen / add/ delete /pin to top</h1>
-<a href="url"><img src="https://user-images.githubusercontent.com/79456369/163782173-172885e9-8742-4615-9d81-6b17b93f1273.pngg" align="left" height="650" width="300" ></a> 
+<a href="url"><img src="https://user-images.githubusercontent.com/79456369/163782173-172885e9-8742-4615-9d81-6b17b93f1273.png" align="left" height="650" width="300" ></a> 
