@@ -15,5 +15,9 @@ Tech used:
 Scrrenshots:
 
 
-<h1>Home Screen / add/ delete /pin to top</h1>
+<h1>Home Screen</h1>
 <a href="url"><img src="https://user-images.githubusercontent.com/79456369/163782173-172885e9-8742-4615-9d81-6b17b93f1273.png" align="left" height="650" width="300" ></a> 
+
+<h1>Add Item</h1>
+<a href="url"><img src="(https://user-images.githubusercontent.com/79456369/163782429-7316a4b1-309e-4e2f-a7ab-d8ab147e82d3.png" align="left" height="650" width="300" ></a> 
+
